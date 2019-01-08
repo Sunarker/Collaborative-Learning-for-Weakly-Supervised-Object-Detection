@@ -1,6 +1,18 @@
 # Collaborative Learning for Weakly Supervised Object Detection
+If you use this code, please cite our paper
+@inproceedings{ijcai2018-135,
+  title     = {Collaborative Learning for Weakly Supervised Object Detection},
+  author    = {Jiajie Wang and Jiangchao Yao and Ya Zhang and Rui Zhang},
+  booktitle = {Proceedings of the Twenty-Seventh International Joint Conference on
+               Artificial Intelligence, {IJCAI-18}},
+  publisher = {International Joint Conferences on Artificial Intelligence Organization},             
+  pages     = {971--977},
+  year      = {2018},
+  month     = {7},
+  doi       = {10.24963/ijcai.2018/135},
+  url       = {https://doi.org/10.24963/ijcai.2018/135},
+}
 
-# This is the code for the IJCAI paper "Collaborative Learning for Weakly Supervised Object Detection"
 
 
 # Important notice:
