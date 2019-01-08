@@ -16,18 +16,6 @@ If you use this code in your research, please cite
 }
 ```
 
-# Important notice:
-If you used the master branch before Sep. 26 2017 and its corresponding pretrained model, **PLEASE PAY ATTENTION**:
-The old master branch in now under old_master, you can still run the code and download the pretrained model, but the pretrained model for that old master is not compatible to the current master!
-
-The main differences between new and old master branch are in this two commits: [9d4c24e](https://github.com/ruotianluo/pytorch-faster-rcnn/commit/9d4c24e83c3e4ec33751e50d5e4d8b1dd793dfaa), [c899ce7](https://github.com/ruotianluo/pytorch-faster-rcnn/commit/c899ce70dae62e3db1a5805eda96df88e4b59ca6)
-The change is related to this [issue](https://github.com/ruotianluo/pytorch-faster-rcnn/issues/6); master now matches all the details in [tf-faster-rcnn](https://github.com/endernewton/tf-faster-rcnn) so that we can now convert pretrained tf model to pytorch model.
-
-# pytorch-faster-rcnn
-A pytorch implementation of faster RCNN detection framework based on Xinlei Chen's [tf-faster-rcnn](https://github.com/endernewton/tf-faster-rcnn). Xinlei Chen's repository is based on the python Caffe implementation of faster RCNN available [here](https://github.com/rbgirshick/py-faster-rcnn).
-
-**Note**: Several minor modifications are made when reimplementing the framework, which give potential improvements. For details about the modifications and ablative analysis, please refer to the technical report [An Implementation of Faster RCNN with Study for Region Sampling](https://arxiv.org/pdf/1702.02138.pdf). If you are seeking to reproduce the results in the original paper, please use the [official code](https://github.com/ShaoqingRen/faster_rcnn) or maybe the [semi-official code](https://github.com/rbgirshick/py-faster-rcnn). For details about the faster RCNN architecture please refer to the paper [Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks](http://arxiv.org/pdf/1506.01497.pdf).
-
 ### Prerequisites
   - A basic pytorch installation. The code follows **0.2**. If you are using old **0.1.12**, you can checkout 0.1.12 branch.
   - Python packages you might not have: `cffi`, `opencv-python`, `easydict` (similar to [py-faster-rcnn](https://github.com/rbgirshick/py-faster-rcnn)). For `easydict` make sure you have the right version. Xinlei uses 1.6.
@@ -157,3 +145,10 @@ Tensorboard information for train and validation is saved under:
 tensorboard/[NET]/[DATASET]/default/
 tensorboard/[NET]/[DATASET]/default_val/
 ```
+
+# Important notice:
+If you used the master branch before Sep. 26 2017 and its corresponding pretrained model, **PLEASE PAY ATTENTION**:
+The old master branch in now under old_master, you can still run the code and download the pretrained model, but the pretrained model for that old master is not compatible to the current master!
+
+The main differences between new and old master branch are in this two commits: [9d4c24e](https://github.com/ruotianluo/pytorch-faster-rcnn/commit/9d4c24e83c3e4ec33751e50d5e4d8b1dd793dfaa), [c899ce7](https://github.com/ruotianluo/pytorch-faster-rcnn/commit/c899ce70dae62e3db1a5805eda96df88e4b59ca6)
+The change is related to this [issue](https://github.com/ruotianluo/pytorch-faster-rcnn/issues/6); master now matches all the details in [tf-faster-rcnn](https://github.com/endernewton/tf-faster-rcnn) so that we can now convert pretrained tf model to pytorch model.
