@@ -1,5 +1,6 @@
 # Collaborative Learning for Weakly Supervised Object Detection
 
+# This is the code for the IJCAI paper "Collaborative Learning for Weakly Supervised Object Detection"
 
 
 # Important notice:
