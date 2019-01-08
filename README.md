@@ -1,7 +1,7 @@
 # Collaborative Learning for Weakly Supervised Object Detection
 
 If you use this code in your research, please cite
-'''
+```
 @inproceedings{ijcai2018-135,
   title     = {Collaborative Learning for Weakly Supervised Object Detection},
   author    = {Jiajie Wang and Jiangchao Yao and Ya Zhang and Rui Zhang},
@@ -14,8 +14,7 @@ If you use this code in your research, please cite
   doi       = {10.24963/ijcai.2018/135},
   url       = {https://doi.org/10.24963/ijcai.2018/135},
 }
-'''
-
+```
 
 # Important notice:
 If you used the master branch before Sep. 26 2017 and its corresponding pretrained model, **PLEASE PAY ATTENTION**:
