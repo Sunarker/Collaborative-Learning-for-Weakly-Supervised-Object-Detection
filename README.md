@@ -105,7 +105,7 @@ If you find it useful, the ``data/cache`` folder created on Xinlei's side is als
    mv resnet101-caffe.pth res101.pth
    cd ../..
    ```
-   For the pretrained wsddn model, you can find the download link [here](https://github.com/hbilen/WSDDN).
+   For the pretrained [wsddn](https://www.robots.ox.ac.uk/~vgg/publications/2016/Bilen16/bilen16.pdf) model, you can find the download link [here](https://github.com/hbilen/WSDDN).
 
 2. Train (and test, evaluation)
   ```Shell
