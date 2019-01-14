@@ -70,7 +70,7 @@ If you find it useful, the ``data/cache`` folder created on Xinlei's side is als
 
 
 ### Train your own model
-1. Download pre-trained models and weights. For the pretrained [wsddn](https://www.robots.ox.ac.uk/~vgg/publications/2016/Bilen16/bilen16.pdf) model, you can find the download link [here](https://github.com/hbilen/WSDDN). For other pre-trained models like VGG16 and Resnet V1 models, are provided by [pytorch-vgg](https://github.com/jcjohnson/pytorch-vgg.git) and [pytorch-resnet](https://github.com/ruotianluo/pytorch-resnet) (the ones with caffe in the name). You can download the pre-trained models and set them in the ``data/imagenet_weights`` folder. For example for VGG16 model, you can set up like:
+1. Download pre-trained models and weights. For the pretrained [wsddn](https://www.robots.ox.ac.uk/~vgg/publications/2016/Bilen16/bilen16.pdf) model, you can find the download link [here](https://github.com/hbilen/WSDDN). For other pre-trained models like VGG16 and Resnet V1 models, they are provided by [pytorch-vgg](https://github.com/jcjohnson/pytorch-vgg.git) and [pytorch-resnet](https://github.com/ruotianluo/pytorch-resnet) (the ones with caffe in the name). You can download the pre-trained models and set them in the ``data/imagenet_weights`` folder. For example for VGG16 model, you can set up like:
    ```Shell
    mkdir -p data/imagenet_weights
    cd data/imagenet_weights
