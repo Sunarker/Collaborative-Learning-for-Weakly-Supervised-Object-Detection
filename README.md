@@ -20,7 +20,6 @@ If you use this code in your research, please cite
   - A basic pytorch installation. The code follows **0.2**. If you are using old **0.1.12**, you can checkout 0.1.12 branch.
   - Python packages you might not have: `cffi`, `opencv-python`, `easydict` (similar to [py-faster-rcnn](https://github.com/rbgirshick/py-faster-rcnn)). For `easydict` make sure you have the right version. Xinlei uses 1.6.
   - [tensorboard-pytorch](https://github.com/lanpa/tensorboard-pytorch) to visualize the training and validation curve. Please build from source to use the latest tensorflow-tensorboard.
-  - ~~Docker users: Since the recent upgrade, the docker image on docker hub (https://hub.docker.com/r/mbuckler/tf-faster-rcnn-deps/) is no longer valid. However, you can still build your own image by using dockerfile located at `docker` folder (cuda 8 version, as it is required by Tensorflow r1.0.) And make sure following Tensorflow installation to install and use nvidia-docker[https://github.com/NVIDIA/nvidia-docker]. Last, after launching the container, you have to build the Cython modules within the running container.~~
 
 ### Installation
 1. Clone the repository
@@ -70,7 +69,7 @@ If you find it useful, the ``data/cache`` folder created on Xinlei's side is als
 
 
 ### Train your own model
-1. Download pre-trained models and weights. For the pretrained [wsddn](https://www.robots.ox.ac.uk/~vgg/publications/2016/Bilen16/bilen16.pdf) model, you can find the download link [here](https://github.com/hbilen/WSDDN). For other pre-trained models like VGG16 and Resnet V1 models, they are provided by [pytorch-vgg](https://github.com/jcjohnson/pytorch-vgg.git) and [pytorch-resnet](https://github.com/ruotianluo/pytorch-resnet) (the ones with caffe in the name). You can download them in the ``data/imagenet_weights`` folder. For example for VGG16 model, you can set up like:
+1. Download pre-trained models and weights. For the pretrained [wsddn](https://www.robots.ox.ac.uk/~vgg/publications/2016/Bilen16/bilen16.pdf) model, you can find the download link [here](https://goo.gl/j7tp7N). For other pre-trained models like VGG16 and Resnet V1 models, they are provided by [pytorch-vgg](https://github.com/jcjohnson/pytorch-vgg.git) and [pytorch-resnet](https://github.com/ruotianluo/pytorch-resnet) (the ones with caffe in the name). You can download them in the ``data/imagenet_weights`` folder. For example for VGG16 model, you can set up like:
    ```Shell
    mkdir -p data/imagenet_weights
    cd data/imagenet_weights
@@ -124,6 +123,8 @@ If you find it useful, the ``data/cache`` folder created on Xinlei's side is als
   # Examples:
   ./experiments/scripts/test.sh 0 pascal_voc vgg16 path_to_wsddn_pretrained_model
   ```
+  
+### Our results can be found [here](https://goo.gl/gP1yLd)
 
 
 
