@@ -123,10 +123,6 @@ If you find it useful, the ``data/cache`` folder created on Xinlei's side is als
   # Examples:
   ./experiments/scripts/test.sh 0 pascal_voc vgg16 path_to_wsddn_pretrained_model
   ```
-  
-### Our results can be found [here](https://goo.gl/gP1yLd)
-
-
 
 By default, trained networks are saved under:
 
@@ -146,3 +142,5 @@ Tensorboard information for train and validation is saved under:
 tensorboard/[NET]/[DATASET]/default/
 tensorboard/[NET]/[DATASET]/default_val/
 ```
+
+### Our results can be found [here](https://goo.gl/gP1yLd)
