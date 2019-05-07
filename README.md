@@ -17,7 +17,7 @@ If you use this code in your research, please cite
 ```
 
 ### Prerequisites
-  - A basic pytorch installation. The code follows **0.2**. If you are using old **0.1.12**, you can checkout 0.1.12 branch.
+  - A basic pytorch installation. The version is **0.2**. If you are using the old version **0.1.12**, you can checkout 0.1.12 branch.
   - Python packages you might not have: `cffi`, `opencv-python`, `easydict` (similar to [py-faster-rcnn](https://github.com/rbgirshick/py-faster-rcnn)). For `easydict` make sure you have the right version. Xinlei uses 1.6.
   - [tensorboard-pytorch](https://github.com/lanpa/tensorboard-pytorch) to visualize the training and validation curve. Please build from source to use the latest tensorflow-tensorboard.
 
